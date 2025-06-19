@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#0A0F44">
+
+    <EditText
+        android:id="@+id/SongTitle"
+        android:hint="Song Name"
+        android:textColor="#FFFFFFFF"
+        android:layout_width="match_parent"
+        android:textColorHint="#FFFFFFFF"
+        android:layout_height="48dp" />
+
+    <EditText
+        android:id="@+id/Artist"
+        android:textColorHint="#FFFFFFFF"
+        android:textColor="#FFFFFFFF"
+        android:hint="Artist Name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <EditText
+        android:id="@+id/Rating"
+        android:textColorHint="#FFFFFFFF"
+        android:textColor="#FFFFFFFF"
+        android:hint="Rate the song (1-5)"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <EditText
+        android:id="@+id/Comment"
+        android:textColorHint="#FFFFFFFF"
+        android:textColor="#FFFFFFFF"
+        android:hint="Comments"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <Button
+        android:id="@+id/btnAddSong"
+        android:text="Add to Playlist"
+        android:backgroundTint="#FF0000FF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnToDetails"
+        android:text="My Playlist"
+        android:backgroundTint="#FF0000FF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:text="Exit"
+        android:backgroundTint="#FF0000FF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

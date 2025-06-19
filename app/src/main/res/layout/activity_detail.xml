@@ -1,0 +1,53 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0F44">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnViewSongs"
+            android:text="View Songs"
+            android:backgroundTint="#FF0000FF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/SongList"
+            android:textColor="#FFFFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnAvgRating"
+            android:text=" Your Ratings"
+            android:layout_width="match_parent"
+            android:backgroundTint="#FF0000FF"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/AverageRating"
+            android:textColor="#FFFFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:backgroundTint="#FF0000FF"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Back to Main Page" />
+
+    </LinearLayout>
+</ScrollView>
